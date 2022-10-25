@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const CardItem = () => {
     return (
@@ -38,10 +39,10 @@ const CardItem = () => {
                     <p className="mb-0">Booking PA</p>
                     <div className="d-sm-flex justify-content-between align-items-center pt-3">
                         <h6 className="mb-0" />
-                        <a href=" " className="btn btn-link p-0 mb-0">
+                        <Link to="/form-booking-konsultasi" className="btn btn-link p-0 mb-0">
                             Booking Sekarang
                             <i className="bi bi-arrow-right ms-2" />
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </div >
@@ -70,10 +71,10 @@ const CardItem = () => {
                     <p className="mb-0">Booking Konseler</p>
                     <div className="d-sm-flex justify-content-between align-items-center pt-3">
                         <h6 className="mb-0" />
-                        <a href=" " className="btn btn-link p-0 mb-0">
+                        <Link to="/form-booking-konsultasi" className="btn btn-link p-0 mb-0">
                             Booking Sekarang
                             <i className="bi bi-arrow-right ms-2" />
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </div >
@@ -109,10 +110,10 @@ const CardItem = () => {
                     <p className="mb-0">Booking AP</p>
                     <div className="d-sm-flex justify-content-between align-items-center pt-3">
                         <h6 className="mb-0" />
-                        <a href=" " className="btn btn-link p-0 mb-0">
+                        <Link to="/form-booking-konsultasi" className="btn btn-link p-0 mb-0">
                             Booking Sekarang
                             <i className="bi bi-arrow-right ms-2" />
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </div >
@@ -139,10 +140,10 @@ const CardItem = () => {
                     <p className="mb-0">Booking Petugas Pelayanan</p>
                     <div className="d-sm-flex justify-content-between align-items-center pt-3">
                         <h6 className="mb-0" />
-                        <a href=" " className="btn btn-link p-0 mb-0">
+                        <Link to="/form-booking-konsultasi" className="btn btn-link p-0 mb-0">
                             Booking Sekarang
                             <i className="bi bi-arrow-right ms-2" />
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </div >
