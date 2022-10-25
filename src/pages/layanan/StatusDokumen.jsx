@@ -136,6 +136,18 @@ const StatusDokumen = () => {
                                         </div>
 
 
+                                        <div class="tab-pane fade" id="course-pills-3" role="tabpanel" aria-labelledby="course-pills-tab-3">
+                                            <div className="card border-start border-success border-4 shadow-lg rounded-2 px-4 py-3 my-4">
+                                                <div className="d-flex justify-content-between align-items-center">
+                                                    <h6 className="mb-1">Surat Keterangan Cuti Kuliah</h6>
+
+
+
+                                                    <i class="bi bi-check-circle-fill fs-5 text-success"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+
 
 
                                     </div>
