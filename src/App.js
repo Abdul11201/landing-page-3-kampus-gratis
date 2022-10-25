@@ -15,6 +15,7 @@ import StatusDokumen from "./pages/layanan/StatusDokumen";
 import HomeLayanan from "./pages/layanan/HomeLayanan";
 import Kategori from "./pages/Kategori";
 import BookingKonsultasi from "./pages/layanan/BookingKonsultasi";
+import BookingKonsultasiForm from "./pages/layanan/BookingKonsultasiForm";
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
         <Route path="/proses-dokumen" element={<ProsesDokumen />} />
         <Route path="/status-dokumen" element={<StatusDokumen />} />
         <Route path="/booking-konsultasi" element={<BookingKonsultasi />} />
+        <Route path="/form-booking-konsultasi" element={<BookingKonsultasiForm />} />
 
       </Routes>
     </BrowserRouter>
