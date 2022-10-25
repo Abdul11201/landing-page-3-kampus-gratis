@@ -1,12 +1,12 @@
 import React from 'react'
 import Banner from '../../component/partials/Banner'
-import Footer3 from '../../component/partials/Footer3'
-import Header4 from '../../component/partials/Header4'
+import Footer from '../../component/partials/Footer'
+import Header from '../../component/partials/Header'
 
 const StatusDokumen = () => {
     return (
         <>
-            <Header4 />
+            <Header />
             <Banner title={"Pengajuan Dokumen"} />
 
             {/* <section class="pt-0">
@@ -208,7 +208,7 @@ const StatusDokumen = () => {
                     </div>
                 </section> */}
 
-            <Footer3 />
+            <Footer />
         </>
     )
 }

@@ -1,11 +1,11 @@
 import React from 'react'
-import Footer3 from '../../component/partials/Footer3'
-import Header4 from '../../component/partials/Header4'
+import Footer from '../../component/partials/Footer'
+import Header from '../../component/partials/Header'
 
 const ProsesDokumen = () => {
     return (
         <div>
-            <Header4 />
+            <Header />
             <section className="py-5">
                 <div className="container card shadow my-5 p-4">
                     <form className="row g-3">
@@ -105,7 +105,7 @@ const ProsesDokumen = () => {
                     </form>
                 </div>
             </section>
-            <Footer3 />
+            <Footer />
         </div>
     )
 }
