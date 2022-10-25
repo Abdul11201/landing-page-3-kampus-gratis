@@ -42,15 +42,12 @@ const Header4 = () => {
             <ul className="navbar-nav navbar-nav-scroll "></ul>
             <ul className="navbar-nav navbar-nav-scroll">
               <li className="nav-item dropdown">
-                <Link
+                <NavLink
                   className="nav-link "
-                  to="home-section1"
-                  spy={true}
-                  smooth={true}
-                  duration={500}
+                  to="/kategori"
                 >
                   STUDI-KU
-                </Link>
+                </NavLink>
               </li>
 
               <li className="nav-item dropdown">
