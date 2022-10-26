@@ -18,6 +18,7 @@ import Kategori from "./pages/Kategori"
 import BookingKonsultasiForm from "./pages/layanan/BookingKonsultasiForm";
 import BookingKonsultasi from "./pages/layanan/BookingKonsultasi";
 import ChatKonsultasi from "./pages/layanan/ChatKonsultasi";
+import PilihDokumen from "./pages/layanan/PilihDokumen";
 
 function App() {
   return (
@@ -46,6 +47,7 @@ function App() {
         <Route path="/booking-konsultasi" element={<BookingKonsultasi />} />
         <Route path="/form-booking-konsultasi" element={<BookingKonsultasiForm />} />
         <Route path="/chat-konsultasi" element={<ChatKonsultasi />} />
+        <Route path="/pilih-dokumen" element={<PilihDokumen />} />
 
       </Routes>
     </BrowserRouter>

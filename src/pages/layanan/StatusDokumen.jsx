@@ -9,36 +9,36 @@ const StatusDokumen = () => {
             <Header />
             <Banner title={"Pengajuan Dokumen"} />
 
-            <section class="pt-0">
-                <div class="container">
-                    <div class="row">
+            <section className="pt-0">
+                <div className="container">
+                    <div className="row">
 
-                        <div class="col-12">
-                            <div class="card shadow rounded-2 p-0 mt-n5">
+                        <div className="col-12">
+                            <div className="card shadow rounded-2 p-0 mt-n5">
 
-                                <div class="card-header border-bottom px-4 pt-3 pb-0">
-                                    <ul class="nav nav-bottom-line py-0" id="course-pills-tab" role="tablist">
+                                <div className="card-header border-bottom px-4 pt-3 pb-0">
+                                    <ul className="nav nav-bottom-line py-0" id="course-pills-tab" role="tablist">
 
-                                        <li class="nav-item me-2 me-sm-4" role="presentation">
-                                            <button class="nav-link mb-2 mb-md-0 active" id="course-pills-tab-1" data-bs-toggle="pill" data-bs-target="#course-pills-1" type="button" role="tab" aria-controls="course-pills-1" aria-selected="true">Proses</button>
+                                        <li className="nav-item me-2 me-sm-4" role="presentation">
+                                            <button className="nav-link mb-2 mb-md-0 active" id="course-pills-tab-1" data-bs-toggle="pill" data-bs-target="#course-pills-1" type="button" role="tab" aria-controls="course-pills-1" aria-selected="true">Proses</button>
                                         </li>
 
-                                        <li class="nav-item me-2 me-sm-4" role="presentation">
-                                            <button class="nav-link mb-2 mb-md-0" id="course-pills-tab-2" data-bs-toggle="pill" data-bs-target="#course-pills-2" type="button" role="tab" aria-controls="course-pills-2" aria-selected="false">Ditolak</button>
+                                        <li className="nav-item me-2 me-sm-4" role="presentation">
+                                            <button className="nav-link mb-2 mb-md-0" id="course-pills-tab-2" data-bs-toggle="pill" data-bs-target="#course-pills-2" type="button" role="tab" aria-controls="course-pills-2" aria-selected="false">Ditolak</button>
                                         </li>
 
-                                        <li class="nav-item me-2 me-sm-4" role="presentation">
-                                            <button class="nav-link mb-2 mb-md-0" id="course-pills-tab-3" data-bs-toggle="pill" data-bs-target="#course-pills-3" type="button" role="tab" aria-controls="course-pills-3" aria-selected="false">Selesai</button>
+                                        <li className="nav-item me-2 me-sm-4" role="presentation">
+                                            <button className="nav-link mb-2 mb-md-0" id="course-pills-tab-3" data-bs-toggle="pill" data-bs-target="#course-pills-3" type="button" role="tab" aria-controls="course-pills-3" aria-selected="false">Selesai</button>
                                         </li>
                                     </ul>
                                 </div>
 
 
 
-                                <div class="card-body p-sm-4">
-                                    <div class="tab-content" id="course-pills-tabContent">
+                                <div className="card-body p-sm-4">
+                                    <div className="tab-content" id="course-pills-tabContent">
 
-                                        <div class="tab-pane fade show active" id="course-pills-1" role="tabpanel" aria-labelledby="course-pills-tab-1">
+                                        <div className="tab-pane fade show active" id="course-pills-1" role="tabpanel" aria-labelledby="course-pills-tab-1">
 
                                             <div className="card border-start border-primary border-4 shadow-lg rounded-2 px-4 py-2 my-4">
                                                 <div className="d-flex justify-content-between align-items-center">
@@ -55,7 +55,7 @@ const StatusDokumen = () => {
 
 
 
-                                        <div class="tab-pane fade" id="course-pills-2" role="tabpanel" aria-labelledby="course-pills-tab-2">
+                                        <div className="tab-pane fade" id="course-pills-2" role="tabpanel" aria-labelledby="course-pills-tab-2">
                                             <div className="card border-start border-danger border-4 shadow-lg rounded-2 px-4 py-2 my-4">
                                                 <div className="d-flex justify-content-between align-items-center">
                                                     <div className="">
@@ -70,11 +70,11 @@ const StatusDokumen = () => {
                                         </div>
 
 
-                                        <div class="tab-pane fade" id="course-pills-3" role="tabpanel" aria-labelledby="course-pills-tab-3">
+                                        <div className="tab-pane fade" id="course-pills-3" role="tabpanel" aria-labelledby="course-pills-tab-3">
                                             <div className="card border-start border-success border-4 shadow-lg rounded-2 px-4 py-3 my-4">
                                                 <div className="d-flex justify-content-between align-items-center">
                                                     <h6 className="mb-1">Surat Keterangan Cuti Kuliah</h6>
-                                                    <i class="bi bi-check-circle-fill fs-5 text-success"></i>
+                                                    <i className="bi bi-check-circle-fill fs-5 text-success"></i>
                                                 </div>
                                             </div>
                                         </div>
